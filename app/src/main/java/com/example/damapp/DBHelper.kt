@@ -14,4 +14,3 @@ class DBHelper(context: Context) :SQLiteOpenHelper(context,"USERDB",null,1) {
         TODO("Not yet implemented")
     }
 }
-class
