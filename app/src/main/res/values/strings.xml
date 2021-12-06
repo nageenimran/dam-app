@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DAMapp</string>
+    <string name="dam_app_txt">DAM</string>
+    <string name="app_txt">APP</string>
+    <string name="login_txt">Login</string>
+    <string name="or_txt">OR</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_an_account_txt">Create an Account</string>
+    <string name="full_name_txt">Full Name</string>
+    <string name="enter_full_name_hint_txt">Enter Full Name</string>
+    <string name="enter_e_mail_txt">Enter E-mail</string>
+    <string name="set_password_hint">Set Password</string>
+    <string name="password_txt">Password</string>
+    <string name="enter_your_date_of_birth_hint">Enter your Date of Birth</string>
+    <string name="date_of_birth_txt">Date of Birth</string>
+    <string name="e_mail_txtt">E-mail</string>
+    <string name="address_txt">Address</string>
+    <string name="sign_up_btn_txt">Sign Up</string>
+    <string name="enter_your_address_hint">Enter your Address</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_your_e_mail_hint">Enter your E-mail</string>
+    <string name="e_mail_txt">E-mail</string>
+    <string name="enter_your_password_edit_txt">Enter your Password</string>
+    <string name="sign_in_btn_txt">Sign In</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="warning">Entity Empty</string>
+</resources>
