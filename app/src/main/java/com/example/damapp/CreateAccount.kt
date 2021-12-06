@@ -71,7 +71,7 @@ class CreateAccount : AppCompatActivity() {
             }
 
             else if (dob_et.text.isBlank()) {
-                dob_et.error="Date of Birth cannot be Empty"
+                dob_et.error="Date of Birth can't be Empty"
                 dob_et.requestFocus()
             }
 
