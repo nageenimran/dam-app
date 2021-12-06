@@ -61,32 +61,27 @@ class CreateAccount : AppCompatActivity() {
                 //Toast.makeText (applicationContext,rs.getString (1) , Toast. LENGTH_LONG).show()
 
             if (name_et.text.isBlank()) {
-                Toast.makeText(this,getString(R.string.warning),
-                    Toast.LENGTH_LONG).show()
+                name_et.error="Name cannot be empty"
                 name_et.requestFocus()
             }
 
             else if (email_et.text.isBlank()) {
-                Toast.makeText(this,getString(R.string.warning),
-                    Toast.LENGTH_LONG).show()
+                email_et.error="Email cannot be Empty"
                 email_et.requestFocus()
             }
 
             else if (dob_et.text.isBlank()) {
-                Toast.makeText(this,getString(R.string.warning),
-                    Toast.LENGTH_LONG).show()
+                dob_et.error="Date of Birth cannot be Empty"
                 dob_et.requestFocus()
             }
 
             else if (password_et.text.isBlank()) {
-                Toast.makeText(this,getString(R.string.warning),
-                    Toast.LENGTH_LONG).show()
+                password_et.error="Password cannot be Empty"
                 password_et.requestFocus()
             }
 
             else if (address_et.text.isBlank()) {
-                Toast.makeText(this,getString(R.string.warning),
-                    Toast.LENGTH_LONG).show()
+                address_et.error="Address cannot be Empty"
                 address_et.requestFocus()
             }
 
