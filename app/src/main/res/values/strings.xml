@@ -32,4 +32,10 @@
     <string name="sign_in_btn_txt">Sign In</string>
     <string name="login_btn_txt">Login</string>
     <string name="warning">Entity Empty</string>
+    <string name="add_activity_txt">Add Activity</string>
+    <string name="activity_title_txt">Activity Title</string>
+    <string name="enter_activity_title_txt">Enter Activity Title</string>
+    <string name="activity_details_txt">Activity Details</string>
+    <string name="enter_description_for_activity_txt">Enter Description for Activity</string>
+    <string name="choose_image_txt">Choose Image</string>
 </resources>

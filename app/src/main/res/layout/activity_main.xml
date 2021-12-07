@@ -9,15 +9,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/dam_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
         android:text="@string/dam_app_txt"
         android:textColor="@color/TextColor"
-        android:textSize="80dp"
-        android:id="@+id/dam_id"
-        />
+        android:textSize="80dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

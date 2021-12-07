@@ -7,8 +7,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.DAMapp">
+        <activity
+            android:name=".AddActivity"
+            android:exported="false" />
         <activity
             android:name=".ListActivity"
             android:exported="false" />
