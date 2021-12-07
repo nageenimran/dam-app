@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/dam_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dam_app_txt"
+        android:textColor="@color/TextColor"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_txt"
+        android:textSize="15dp"
+        android:textColor="@color/TextColor"
+        android:layout_toRightOf="@+id/dam_id"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="italic"
+        android:id="@+id/app_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/add_activity_txt"
+        android:textColor="@color/TextColor"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dam_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/activity_title_txt"
+        android:textColor="@color/TextColor"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/email_txt"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableBottom="@color/TextColor"
+        android:hint="@string/enter_activity_title_txt"
+        android:maxLength="25"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/TextColor"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/password_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_edit_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/activity_details_txt"
+        android:textColor="@color/TextColor"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/password_txt"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_edit_text"
+        android:drawableBottom="@color/TextColor"
+        android:hint="@string/enter_description_for_activity_txt"
+        android:inputType="textWebPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/TextColor"
+        android:textSize="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose_img_btn"
+            android:text="@string/choose_image_txt"
+            android:backgroundTint="@color/TextColor"
+            android:layout_below="@+id/password_edit_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/password_edit_text"
+            android:layout_toRightOf="@+id/choose_img_btn"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/choose_img_tv"
+            />
+
+
+</RelativeLayout>
