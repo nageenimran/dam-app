@@ -19,9 +19,6 @@ class CreateAccount : AppCompatActivity() {
         custom_list_page_binding_object= ActivityCreateAccountBinding.inflate(layoutInflater)
         setContentView(custom_list_page_binding_object.root)
 
-
-
-
         connectXML()
     }
 
@@ -56,9 +53,9 @@ class CreateAccount : AppCompatActivity() {
             var helper = DBHelper (applicationContext)
             var db = helper.readableDatabase
             var cv=ContentValues()
-            var rs=db. rawQuery ("SELECT * FROM USERS" , null)
-            //if(rs.moveToNext () )
-                //Toast.makeText (applicationContext,rs.getString (1) , Toast. LENGTH_LONG).show()
+//            var rs=db. rawQuery ("SELECT * FROM USERS" , null)
+//            //if(rs.moveToNext () )
+//                //Toast.makeText (applicationContext,rs.getString (1) , Toast. LENGTH_LONG).show()
 
             if (name_et.text.isBlank()) {
                 name_et.error="Name cannot be empty"

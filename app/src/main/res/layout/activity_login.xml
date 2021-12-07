@@ -62,10 +62,10 @@
         android:layout_marginLeft="18dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/custom_edit_text"
-        android:textColor="@color/black"
         android:drawableBottom="@color/TextColor"
         android:hint="@string/enter_your_e_mail_hint"
         android:paddingLeft="10dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/TextColor"
         android:textSize="15dp" />
     <TextView
@@ -89,10 +89,10 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/custom_edit_text"
         android:drawableBottom="@color/TextColor"
-        android:textColor="@color/black"
         android:hint="@string/enter_your_password_edit_txt"
-        android:inputType="textWebPassword"
+        android:inputType="textPassword"
         android:paddingLeft="10dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/TextColor"
         android:textSize="15dp" />
 

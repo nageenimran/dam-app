@@ -32,13 +32,11 @@ class LoginActivity : AppCompatActivity() {
     private fun login_btn_fun() {
         if(email_et.text.isBlank())
         {
-            Toast.makeText(this,getString(R.string.warning),
-                Toast.LENGTH_LONG).show()
+            email_et.error="Enter Email"
             email_et.requestFocus()
         }
         else if (password_et.text.isBlank()) {
-            Toast.makeText(this,getString(R.string.warning),
-                Toast.LENGTH_LONG).show()
+            password_et.error="Enter Password"
             password_et.requestFocus()
         }
 
