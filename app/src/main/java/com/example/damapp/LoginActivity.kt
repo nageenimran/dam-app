@@ -48,6 +48,8 @@ class LoginActivity : AppCompatActivity() {
             var rs=db.rawQuery("SELECT * FROM USERS WHERE EMAIL = ? AND PASS = ?",args)
             if(rs.moveToNext()){
                 startActivity(Intent(this,ListActivity::class.java))
+                email_et.text.clear()
+                password_et.text.clear()
             }
             else{
                 Toast.makeText(applicationContext, "Invalid Credential", Toast.LENGTH_SHORT).show()
