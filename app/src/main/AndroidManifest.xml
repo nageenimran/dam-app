@@ -13,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DAMapp">
         <activity
-            android:name=".AddActivity"
+            android:name=".ListActivity"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name=".AddActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

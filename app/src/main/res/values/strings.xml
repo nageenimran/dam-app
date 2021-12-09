@@ -38,4 +38,6 @@
     <string name="activity_details_txt">Activity Details</string>
     <string name="enter_description_for_activity_txt">Enter Description for Activity</string>
     <string name="choose_image_txt">Choose Image</string>
+    <string name="add_activity_btn_txt">Add Activity</string>
+    <string name="logout_txt">Logout</string>
 </resources>

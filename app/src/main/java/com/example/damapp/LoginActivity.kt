@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,7 +53,11 @@ class LoginActivity : AppCompatActivity() {
                 password_et.text.clear()
             }
             else{
-                Toast.makeText(applicationContext, "Invalid Credential", Toast.LENGTH_SHORT).show()
+                var ad=AlertDialog.Builder(this)
+                ad.setTitle("Login Failed")
+                ad.setMessage("Email or Password Incorrect")
+                ad.setPositiveButton("OK",null)
+                ad.show()
                 email_et.text.clear()
                 password_et.text.clear()
                 email_et.requestFocus()
